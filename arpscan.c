@@ -46,7 +46,7 @@ usage()
 	fprintf(stderr, "\teg)\n");
 	fprintf(stderr, "\t    %s 172.16.1.11\n", __progname);
 	fprintf(stderr, "\t    %s 192.168.1.100-192.168.1.200\n", __progname);
-	fprintf(stderr, "\t    %s 172.16.1.41/29\n");
+	fprintf(stderr, "\t    %s 172.16.1.41/29\n", __progname);
 	fprintf(stderr, "\n");
 	exit(1);
 }
