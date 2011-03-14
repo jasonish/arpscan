@@ -1,8 +1,7 @@
 dnl configure.in for arpscan.
 
-AC_INIT(arpscan.c)
-
-AM_INIT_AUTOMAKE(arpscan, 0.3)
+AC_INIT([arpscan], 0.4)
+AM_INIT_AUTOMAKE([no-define foreign])
 
 dnl Initialize prefix.
 if test "$prefix" = "NONE"; then
