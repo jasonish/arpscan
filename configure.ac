@@ -8,6 +8,8 @@ if test "$prefix" = "NONE"; then
    prefix="/usr/local"
 fi
 
+AC_CONFIG_HEADERS([config.h])
+
 dnl Checks for programs.
 AC_PROG_CC
 
