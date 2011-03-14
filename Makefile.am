@@ -1,7 +1,5 @@
 ## $Id: Makefile.am,v 1.1.1.1 2002/05/27 18:46:42 jason Exp $
 
-AUTOMAKE_OPTIONS = foreign 1.4
-
 INCLUDES = @DNETINC@ @PCAPINC@
 
 LDADD = @DNETLIB@ @PCAPLIB@
