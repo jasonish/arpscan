@@ -95,7 +95,7 @@ init_pcap(char *dev_name)
 	int flags;
 	char filter[1024];
 
-	pcap = pcap_open_live(dev_name, 64, 1, 0, pcap_errbuf);
+	pcap = pcap_open_live(dev_name, 64, 1, 1, pcap_errbuf);
 	if (pcap == NULL)
 		errx(1, "error: %s\n", pcap_errbuf);
 
