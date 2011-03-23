@@ -1,6 +1,6 @@
 dnl configure.in for arpscan.
 
-AC_INIT([arpscan], 0.4)
+AC_INIT([arpscan], 0.5)
 AM_INIT_AUTOMAKE([no-define foreign])
 
 dnl Initialize prefix.
